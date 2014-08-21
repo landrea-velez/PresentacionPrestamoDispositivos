@@ -1,0 +1,71 @@
+[
+    {
+        "age": 0, 
+        "id": "motorola-xoom-with-wi-fi", 
+        "imageUrl": "../img/phones/motorola-xoom-with-wi-fi.0.jpg", 
+        "name": "Motorola XOOM\u2122 with Wi-Fi", 
+        "snippet": " Tablet con procesador dual-core, 7 pulgadas y Android 3.1."
+    }, 
+    {
+        "age": 1, 
+        "id": "motorola-xoom", 
+        "imageUrl": "../img/phones/motorola-xoom.0.jpg", 
+        "name": "MOTOROLA XOOM\u2122", 
+        "snippet": "Tablet con procesador NVIDIA, 10 pulgadas y Android 3.0 Honeycomb"
+    }, 
+    {
+        "age": 2, 
+        "carrier": "AT&T", 
+        "id": "iPad-4g", 
+        "imageUrl": "../img/phones/iPad-4.0.jpg", 
+        "name": "iPad 4", 
+        "snippet": "iPad con Wi-Fi + Cellular"
+    },
+    {
+        "age": 3, 
+        "id": "samsung-galaxy-tab", 
+        "imageUrl": "../img/phones/samsung-galaxy-tab.0.jpg", 
+        "name": "Samsung Galaxy Tab\u2122", 
+        "snippet": "Feel Free to Tab\u2122. The Samsung Galaxy Tab\u2122 brings you an ultra-mobile entertainment experience through its 7\u201d display, high-power processor and Adobe\u00ae Flash\u00ae Player compatibility."
+    },      
+    {
+        "age": 4, 
+        "carrier": "Verizon", 
+        "id": "Lenovo", 
+        "imageUrl": "../img/phones/ThinkPadL440.0.jpg", 
+        "name": "Lenovo ThinkPad L440 (20AT002DLM)", 
+        "snippet": "Cuarta generación del procesador Intel® Core™ i5-4300M (3M Cache, 2.6 GHz)."
+    }, 
+    {
+        "age": 5, 
+        "carrier": "Verizon", 
+        "id": "CamaraPanasonic", 
+        "imageUrl": "../img/phones/PanasonicCam.0.jpg", 
+        "name": "Videocámara Panasonic HDC-SD100", 
+        "snippet": "Cámara de video."
+    }, 
+    {
+        "age": 6, 
+        "carrier": "AT&T", 
+        "id": "motorola-bravo-with-motoblur", 
+        "imageUrl": "../img/phones/motorola-bravo-with-motoblur.0.jpg", 
+        "name": "MOTOROLA BRAVO\u2122 with MOTOBLUR\u2122", 
+        "snippet": "An experience to cheer about."
+    }, 
+    {
+        "age": 7, 
+        "carrier": "T-Mobile", 
+        "id": "motorola-defy-with-motoblur", 
+        "imageUrl": "../img/phones/motorola-defy-with-motoblur.0.jpg", 
+        "name": "Motorola DEFY\u2122 with MOTOBLUR\u2122", 
+        "snippet": "Are you ready for everything life throws your way?"
+    }, 
+    {
+        "age": 8, 
+        "carrier": "T-Mobile", 
+        "id": "t-mobile-mytouch-4g", 
+        "imageUrl": "../img/phones/t-mobile-mytouch-4g.0.jpg", 
+        "name": "T-Mobile myTouch 4G", 
+        "snippet": "The T-Mobile myTouch 4G is a premium smartphone designed to deliver blazing fast 4G speeds so that you can video chat from practically anywhere, with or without Wi-Fi."
+    }
+]
