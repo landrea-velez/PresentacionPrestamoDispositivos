@@ -10,7 +10,7 @@ prestamosApp.config(['$routeProvider',
         controller: 'formIngresoControllers'      
       }).
       when('vitas/solicitarPrestamo', {
-          templateUrl: 'vistas/solicitarPrestamo.html',
+          templateUrl: 'vistas/dispositivosDisponibles.html',
           controller: 'formSolicPrestamoCtrl'
         }).
         otherwise({

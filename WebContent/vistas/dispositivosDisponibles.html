@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="phonecatApp">
+<head>   
+     	<title>DISPOSITIVOS DISPONIBLES</title>
+   
+  		<!-- CSS -->  		
+     	<link rel="stylesheet" href="../css/app.css">
+     	<link href="../css/style.css" type="text/css" rel="stylesheet">
+		<link href="../css/html5-reset.css" type="text/css" rel="stylesheet">
+     	
+        <!-- JS --> 
+   	 	<script src="../angular/angular.js"></script>
+   	 	<script src="../angular/angular.js"></script>
+     	<script src="../js/controllers.js"></script>     	
+		<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script> 
+		<script src="../js/modernizr-2.0.6.min.js" type="text/javascript"></script> 		
+</head>
+<body ng-controller="PhoneListCtrl" style="background: url(../img/lg.png) repeat left top;"> 
+	<div id="container" style="width: 600px; margin: 10px auto 0;">
+		<nav id="navigation">
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Dispositivos Disponibles</a></li>
+				<li><a href="#">Dispositivos en Pr&eacute;stamo</a></li>
+				<li><a href="#">Salir</a></li>
+			</ul>
+		</nav>	
+	</div>
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2" >        
+       <p class="Texto">Buscar: <input ng-model="query" class="Buscar"></p>
+        <p class="Texto">Ordenar:
+		  <select ng-model="orderProp" class="Buscar">
+		    <option value="name">Alfab&eacute;tico</option>
+		    <option value="age">Ninguno</option>
+		  </select></p>
+      </div>
+      <div class="col-md-10">
+        <!--Body content-->		
+        <ul class="phones">
+          <li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
+             <center><a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a></center>
+             <a href="#/phones/{{phone.id}}" class="Titulo1">{{phone.name}}</a>
+            <p class="Titulo2">{{phone.snippet}}</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+</body>
+</html>

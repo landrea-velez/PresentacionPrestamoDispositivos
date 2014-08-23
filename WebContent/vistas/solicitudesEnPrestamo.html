@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="phonecatApp">
+<head>
+   <meta charset="utf-8">
+   <title>Google Phone Gallery</title>
+   
+   	 <!-- CSS -->   
+     <link rel="stylesheet" href="../css/app.css">
+     
+     <!-- JS -->
+   	 <script src="../angular/angular.js"></script>
+   	 <script src="../angular/angular.js"></script>
+     <script src="../js/controllers.js"></script>     
+</head>
+<body ng-controller="PhoneListCtrl"> 
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2" >        
+       <p class="Texto">Buscar: <input ng-model="query" class="Buscar"></p>
+        <p class="Texto">Ordenar:
+		  <select ng-model="orderProp" class="Buscar">
+		    <option value="name">Alfab&eacute;tico</option>
+		    <option value="age">Ninguno</option>
+		  </select></p>
+      </div>
+      <div class="col-md-10">
+        <!--Body content-->		
+        <ul class="phones">
+          <li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
+             <center><a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a></center>
+             <a href="#/phones/{{phone.id}}" class="Titulo1">{{phone.name}}</a>
+            <p class="Titulo2">{{phone.snippet}}</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
